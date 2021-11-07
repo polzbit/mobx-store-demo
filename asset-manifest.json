@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/mobx-store-demo/static/css/main.bc44a173.chunk.css",
-    "main.js": "/mobx-store-demo/static/js/main.1d6aa9fa.chunk.js",
-    "main.js.map": "/mobx-store-demo/static/js/main.1d6aa9fa.chunk.js.map",
+    "main.js": "/mobx-store-demo/static/js/main.e7ff273a.chunk.js",
+    "main.js.map": "/mobx-store-demo/static/js/main.e7ff273a.chunk.js.map",
     "runtime-main.js": "/mobx-store-demo/static/js/runtime-main.0217e7f1.js",
     "runtime-main.js.map": "/mobx-store-demo/static/js/runtime-main.0217e7f1.js.map",
-    "static/js/2.e7656aaf.chunk.js": "/mobx-store-demo/static/js/2.e7656aaf.chunk.js",
-    "static/js/2.e7656aaf.chunk.js.map": "/mobx-store-demo/static/js/2.e7656aaf.chunk.js.map",
+    "static/js/2.d2e7e571.chunk.js": "/mobx-store-demo/static/js/2.d2e7e571.chunk.js",
+    "static/js/2.d2e7e571.chunk.js.map": "/mobx-store-demo/static/js/2.d2e7e571.chunk.js.map",
     "static/js/3.7d0d2d58.chunk.js": "/mobx-store-demo/static/js/3.7d0d2d58.chunk.js",
     "static/js/3.7d0d2d58.chunk.js.map": "/mobx-store-demo/static/js/3.7d0d2d58.chunk.js.map",
     "index.html": "/mobx-store-demo/index.html",
     "static/css/main.bc44a173.chunk.css.map": "/mobx-store-demo/static/css/main.bc44a173.chunk.css.map",
-    "static/js/2.e7656aaf.chunk.js.LICENSE.txt": "/mobx-store-demo/static/js/2.e7656aaf.chunk.js.LICENSE.txt"
+    "static/js/2.d2e7e571.chunk.js.LICENSE.txt": "/mobx-store-demo/static/js/2.d2e7e571.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0217e7f1.js",
-    "static/js/2.e7656aaf.chunk.js",
+    "static/js/2.d2e7e571.chunk.js",
     "static/css/main.bc44a173.chunk.css",
-    "static/js/main.1d6aa9fa.chunk.js"
+    "static/js/main.e7ff273a.chunk.js"
   ]
 }
