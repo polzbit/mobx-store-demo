@@ -1,0 +1,9 @@
+@import "../../_globals";
+
+.home {
+    display: flex;
+    flex-direction: column;
+    background-color: $backgroundColor;
+    white-space: nowrap;
+    flex: 1;
+}

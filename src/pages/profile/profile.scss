@@ -1,0 +1,84 @@
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    .profile {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(187, 187, 187);
+        width: 30rem;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 2rem 4rem;
+        label, input, button, h2, h1 {
+            color:#333;
+            text-align: left;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+        label {
+            font-weight: 700;
+        }
+        input {
+            height: 40px;
+            padding-left: 15px;
+            border-radius: 5px;
+            -webkit-appearance: none;
+            box-shadow: none;
+            border: 1px solid rgb(175, 175, 175);
+        }
+        input:focus {
+            outline: none;
+            box-shadow: rgba(207, 95, 51, 12) 0px 0px 4px 0px, rgba(207, 95, 51, 32) 0px 2px 8px 0px;
+        }
+        input:disabled {
+            border: none;
+            background: none;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        button {
+            text-align: center;
+            height: 40px;
+            cursor: pointer;
+            background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+            outline: none;
+            border: 1px solid rgb(187, 187, 187);
+            border-radius: 4px;
+        }
+        button:hover {
+            background: linear-gradient(to bottom,#f0c14b,#f5bd30);
+        }
+        .profile-row {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            input {
+                border-bottom-right-radius: 0;
+                border-top-right-radius: 0;
+            }
+            button {
+                width: 5rem;
+                border-bottom-left-radius: 0;
+                border-top-left-radius: 0;
+            }
+        }
+        .profile-psw {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .changwPswBtn {
+            margin-top: 40px;
+            width: 80%;
+        }
+        .error {
+            font-weight: 600;
+            color:rgb(218, 34, 34);
+        }
+        .success {
+            font-weight: 600;
+            color:rgb(27, 161, 23);
+        }
+    }
+}

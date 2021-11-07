@@ -1,0 +1,87 @@
+.side-filters {
+    text-align: left;
+    padding: 5px 20px;
+    border-right: 1px solid rgb(209, 209, 209);
+    margin: 0;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    .side-section{
+        margin-bottom: 15px;
+        width: 90%;
+        h4, label{
+            color: #333;
+            margin-bottom: 5px;
+        }
+        label, input {
+            padding-left: 5px;
+            cursor: pointer;
+        }
+        label:hover {
+            color: rgb(207, 95, 51);
+        }   
+        .review-btn {
+            cursor: pointer;
+            line-height: 20px;
+            display: flex;
+            flex-direction: row;
+            span {
+                color: #333;
+                font-size: 14px;
+                margin: 0;
+                margin-left: 15px;
+            }
+            .stars {
+                width: 5rem;
+                margin: 0;
+            }
+        }
+        .review-btn:hover {
+            span {
+                color: rgb(207, 95, 51);
+            }
+        }
+        .ui-btn, .ui-sub-btn {
+            cursor: pointer;
+            span {
+                color: black;
+            }
+        }
+        .ui-btn:hover, .ui-sub-btn:hover, .ui-btn-toggle:hover {
+            span {
+                color: rgb(207, 95, 51);
+            }
+        }
+        .ui-sub-btn{
+            span {
+                padding-left: 10px;
+            }
+        }
+        .ui-btn-toggle {
+            font-size: 14px;
+            cursor: pointer;
+            span {
+                color: rgb(68, 117, 190);
+            }
+        }
+        .ui-btn-active {
+            font-weight: 800;
+        }
+        .price-ui {
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+            input {
+                color: black;
+                width: 4rem;
+                margin: 0;
+                margin-right: 5px;
+                outline: none;
+            }
+            button {
+                margin: 0;
+                color: black;
+            }
+        }
+    }
+}

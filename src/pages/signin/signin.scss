@@ -1,0 +1,108 @@
+.signin-page {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    .main-logo {
+        cursor: pointer;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10rem;
+        span {
+            color:#333;
+        }
+    }
+    .sign-info {
+        display: flex;
+        flex-direction: column;
+        width: 27rem;
+        border: 1px solid rgb(187, 187, 187);
+        border-radius: 4px;
+        padding: 20px;
+        text-align: left;
+        div {
+             width: 100%;
+        }
+        h1, input, p, button, label {
+            color: #333;
+            text-align: left;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        button {
+            text-align: center;
+            height: 40px;
+            cursor: pointer;
+            background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+            outline: none;
+            border: 1px solid rgb(187, 187, 187);
+            border-radius: 4px;
+        }
+        button:hover {
+            background: linear-gradient(to bottom,#f0c14b,#f5bd30);
+        }
+        input {
+            height: 40px;
+            padding-left: 15px;
+            border-radius: 5px;
+            -webkit-appearance: none;
+            box-shadow: none;
+            border: 1px solid rgb(175, 175, 175);
+        }
+        input:focus {
+            outline: none;
+            box-shadow: rgba(207, 95, 51, 12) 0px 0px 4px 0px, rgba(207, 95, 51, 32) 0px 2px 8px 0px;
+        }
+        input:disabled {
+            border: none;
+            background: none;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        label {
+            font-weight: 700;
+        }
+        p {
+            font-size: 12px;
+        }
+        .link {
+            color: rgb(41, 94, 173);
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .link:hover {
+            color: rgb(207, 95, 51);
+        }
+        .forgot {
+            width: 100%;
+            text-align: left;
+            font-size: 12px;
+        }
+        .error {
+            color: rgb(221, 33, 33);
+            font-weight: 600;
+            width: 100%;
+            text-align: left;
+            margin-top: -10px;
+        }
+        
+    }
+    .register {
+        margin-top: 20px;
+        width: 27rem;
+        button {
+            color: #333;
+            height: 40px;
+            width: 100%;
+            cursor: pointer;
+            background: linear-gradient(to bottom,#f7f8fa,#e7e9ec);
+            outline: none;
+            border: 1px solid rgb(187, 187, 187);
+            border-radius: 4px;
+        }
+        button:hover {
+            background: linear-gradient(to bottom,#e7e9ec,#ced0d3);
+        }
+    }
+}
