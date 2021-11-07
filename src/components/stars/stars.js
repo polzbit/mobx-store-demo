@@ -1,5 +1,4 @@
 import React from 'react';
-import './stars.scss';
 
 const Stars = ({ rank }) => {
     /* ----- Render ------ */
