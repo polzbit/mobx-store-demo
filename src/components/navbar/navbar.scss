@@ -1,0 +1,176 @@
+@import "../../_globals";
+
+.navigation-bar {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        background-color: $navbarColor;
+        padding: 10px;
+        align-items: stretch;
+        margin: 0;
+        .nav-item {
+            border: 1px solid $navbarColor;
+            line-height: 20px;
+            margin: 0;
+            margin-right: 5px;
+            min-width: 5rem;
+            border-radius: 2px;
+            cursor: pointer;
+            padding: 0 10px;
+        }
+        .nav-item:hover {
+            border: 1px solid white;
+        }
+        .store-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 6rem;
+        }
+        .location {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: flex-end;
+            .location-icon {            
+                img {
+                    line-height: 30px;
+                }
+            }
+            .location-txt {
+                display: flex;
+                flex-direction: column;
+                span {
+                    font-size: 12px;
+                    text-align: left;
+                }
+                .span-bold {
+                    font-weight: 700;
+                    font-size: 14px;
+                    margin: 0;
+                }
+                
+            }
+        }
+
+        .search {
+            background-color: #febd69;
+            border:3px solid $navbarColor;
+            border-radius: 5px;
+            min-width: 40%;
+            margin: 0;
+            display: flex;
+            flex: 1;
+            
+            .search-category{
+                margin: 0;
+                .category-select {
+                    color: black;
+                    height: 40px;
+                    border: 0;
+                    border-bottom-right-radius: 0;
+                    border-top-right-radius: 0;
+                    border-bottom-left-radius: 5px;
+                    border-top-left-radius: 5px;
+                    outline: none;
+                    background-color: rgb(218, 218, 218);
+                    padding: 5px;
+                    cursor: pointer;
+                    option {
+                        width: 3rem;
+                        color: #333;
+                    }
+                }
+            }
+            .search-input {
+                margin: 0;
+                flex:1;
+                .nav-input{
+                    height: 40px;
+                    min-width: 100%;
+                    color: black;
+                    outline: none;
+                    -webkit-appearance: none;
+                    box-shadow: none;
+                    padding: 7px 10px 10px 0;
+                    margin: 0;
+                    border: 0;
+                }
+            }
+            .search-btn {
+                margin: auto;
+                .searchBtn {
+                    background-color: #febd69;
+                    height: 38px;
+                    width: 38px;
+                    border: 0;
+                    border-bottom-right-radius: 5px;
+                    border-top-right-radius: 5px;
+                    cursor: pointer;
+                    img {
+                        margin: auto;
+                    }
+                }
+            }
+            
+        }
+        .language {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .signin, .orders {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            span {
+                font-size: 12px;
+                margin: 0;
+            }
+            .span-bold {
+                font-weight: 700;
+                font-size: 14px;
+                margin: 0;
+            }
+        }
+        .cart {
+            .cart-icon {
+
+            }
+            .cart-txt {
+                .span-bold {
+                    font-weight: 700;
+                    font-size: 14px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .sub-navbar {
+        display: flex;
+        flex-direction: row;
+        background-color: $subbarColor;
+        padding: 10px 20px;
+        min-width: 100%;
+        align-items: stretch;
+        margin: 0;
+        div {
+            margin: 0;
+            margin-right: 15px;
+            cursor: pointer;
+            border: 1px solid $subbarColor;
+            padding: 5px;
+            border-radius: 2px;
+        }
+        div:hover {
+            border: 1px solid white;
+        }
+    }
+}
