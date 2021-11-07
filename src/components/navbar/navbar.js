@@ -81,7 +81,7 @@ const NavBar = ({ state, filters, setFilters }) => {
                 </div>
                 <div className='nav-item location'>
                     <div className='location-icon'>
-                        <img alt='pin' src='mobx-store-demo/images/pin.png' height='18' width='18'/>
+                        <img alt='pin' src='./images/pin.png' height='18' width='18'/>
                     </div>
                     <div className="location-txt">
                         <span>Deliver to</span>
@@ -99,11 +99,11 @@ const NavBar = ({ state, filters, setFilters }) => {
                         <input className='nav-input' type="text" value={filters.dummy_search} onKeyDown={(e) => e.key === 'Enter' ? on_search() : null} onFocus={() => setColor('#febd69')} onBlur={() => setColor('#131921')} onChange={(e) => setSearch(e.target.value)}/>
                     </div>
                     <div className='search-btn'>
-                        <button type='button' onClick={on_search} className='searchBtn'><img alt='search' src='mobx-store-demo/images/search.png' height='15' width='15' /></button>
+                        <button type='button' onClick={on_search} className='searchBtn'><img alt='search' src='./images/search.png' height='15' width='15' /></button>
                     </div>
                 </div>
                 <div className='nav-item language'>
-                    <img alt='IL' src='mobx-store-demo/images/il.png' height='25' width='25' />
+                    <img alt='IL' src='./images/il.png' height='25' width='25' />
                 </div>
                 <div className='nav-item signin' onClick={goToUser}>
                     {
@@ -121,7 +121,7 @@ const NavBar = ({ state, filters, setFilters }) => {
                 <div className='nav-item cart'>
                     <div className='cart-icon'>
                         <span>0</span>
-                        <img alt='' src='mobx-store-demo/images/cart.png' height='20' width='20' />
+                        <img alt='' src='./images/cart.png' height='20' width='20' />
                     </div>
                     <div className='cart-txt'>
                         <span className='span-bold'>Cart</span>
@@ -130,7 +130,7 @@ const NavBar = ({ state, filters, setFilters }) => {
             </div>
             <div className='sub-navbar'>
                 <div>
-                    <img alt="" src="mobx-store-demo/images/menu.png" height='15' width='15' />
+                    <img alt="" src="./images/menu.png" height='15' width='15' />
                     All
                 </div>
                 <div>
