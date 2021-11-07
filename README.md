@@ -3,7 +3,7 @@
 ## Overview
 
 mini amazon store clone with no backend, built using ReactJS. \
-data is store locally using [Mobx library](https://mobx.js.org). \
+data is store locally using [Mobx library](https://mobx.js.org). 
 
 on load, application reads products from data.json file and load them to mobx store.	\
 you can find a product using filters or search for it. \
